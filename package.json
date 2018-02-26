@@ -2,6 +2,13 @@
   "name": "angular-tour-of-heroes",
   "version": "0.0.0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vandbt/angular-tour-of-heroes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vandbt/angular-tour-of-heroes/issues"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
