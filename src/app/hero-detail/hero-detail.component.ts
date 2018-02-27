@@ -32,4 +32,9 @@ export class HeroDetailComponent implements OnInit {
       .subscribe(hero => this.hero = hero);
   }
 
+  goBack(): void {
+    // navigates backward one step in the browser's history stack
+    this.location.back();
+  }
+
 }
