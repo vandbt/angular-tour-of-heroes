@@ -8,13 +8,15 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 // import Services here
 import { HeroService } from './hero.service';
+import { MessagesComponent } from './messages/messages.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroesComponent,
-    HeroDetailComponent
+    HeroDetailComponent,
+    MessagesComponent
   ],
   imports: [
     FormsModule,
