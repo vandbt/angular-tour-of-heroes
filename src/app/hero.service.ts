@@ -17,10 +17,9 @@ export class HeroService {
     private http: HttpClient,
     private messageService: MessageService) { }
 
+  /** GET heroes from the server */
   getHeroes(): Observable<Hero[]> {
-    // Todo: send the message _after_ fetching the heroes
-    this.messageService.add('HeroService: fetched heroes');
-    return of(HEROES);
+    return this.http.get<Hero[]>(this.heroesUrl)
   }
 
   getHero(id: number): Observable<Hero> {
