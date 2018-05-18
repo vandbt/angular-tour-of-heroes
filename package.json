@@ -10,12 +10,16 @@
     "url": "https://github.com/vandbt/angular-tour-of-heroes/issues"
   },
   "scripts": {
+    "setup": "npm install",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "test-with-coverage": "",
+    "docs": "",
+    "pack": ""
   },
   "private": true,
   "dependencies": {
